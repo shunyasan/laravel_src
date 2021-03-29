@@ -1,0 +1,159 @@
+body{
+  font-family: '游明朝','Yu Mincho',YuMincho,'Hiragino Mincho Pro',serif;
+}
+
+main{
+  min-height: 35em;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+main{
+  padding: 2em 2.5em;
+}
+
+button{
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+button:active{
+  outline: none;
+}
+
+h1,h2{
+  margin-bottom: 2em;
+}
+
+/*//// header.blade.php /////*/
+
+.header-all{
+  background-color: #4682b4;
+  padding: 2em 1em;
+}
+
+.header-all a{
+  color: #e0e0e0;
+  margin: 0 3em;
+}
+
+.login-wrap{
+  display: inline-block;
+  float: right;
+}
+
+.login-wrap a{
+  margin: 0 2em;
+}
+
+.search{
+  display: inline;
+}
+
+/*//// top.blade.php /////*/
+
+table{
+  width: 80%;
+  margin: 0 auto;
+  table-layout: fixed;
+  text-align: center;
+}
+
+table th{
+  padding: 1em 0;
+  background-color: #d3d3d3;
+  margin-bottom: 3em;
+}
+
+table td{
+  padding: 2em 0;
+  border-bottom: 2px solid #ddd;
+}
+
+.pare-title,.pare-name{
+  width: 20%;
+}
+
+.pare-det{
+  width: 10%;
+}
+
+.short{
+  white-space:nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+/*//// detail.blade.php /////*/
+
+.detail-wrap{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.blue-sen{
+  display: inline-block;
+  background-color: rgba(20, 20, 20, 0.1);
+}
+
+.sentence-wrap{
+  margin-bottom: 2em;
+}
+
+.btn-1,.btn-2{
+  padding: 0.5em 1em;
+  margin-right: 1em;
+}
+
+.btn-1{
+  background-color: #266590;
+  color: #e0e0e0;
+}
+
+.btn-2{
+  background-color: #fffacd;
+}
+
+/*//// create.blade.php /////*/
+
+.create-input{
+  margin-bottom: 2em;
+}
+
+.create-input a{
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.create-input input{
+  height: 2em;
+  width: 40em;
+}
+
+.create-input input,.create-input textarea{
+  padding: 3px;
+}
+
+/*//// login.blade.php /////*/
+
+.card-body{
+  width: 60%;
+  margin-left: 8em;
+}
+
+.input-form{
+  height: 2em;
+  width: 100%;
+}
