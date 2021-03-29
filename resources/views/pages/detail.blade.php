@@ -22,7 +22,7 @@
       <button type="button" class="btn-1" onclick="location.href='{{ route('blog.edit',"$blog->id") }}'">編集</button>
       <button type="button" class="btn-2" onclick="location.href='{{ route('delete',"$blog->id") }}'">削除</button>
       @if($blog->users()->where('user_id','=',Auth::user()->id)->exists())
-        <button type="button" class="btn-2" onclick="location.href='{{ route('favorite',"$blog->id") }}'">やめる</button>
+        <button type="button" class="btn-2" onclick="location.href='{{ route('unfavo',"$blog->id") }}'">やめる</button>
       @else
         <button type="button" class="btn-2" onclick="location.href='{{ route('favorite',"$blog->id") }}'">お気に入りする</button>
       @endif
